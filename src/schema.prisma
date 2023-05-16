@@ -15,5 +15,5 @@ model teacher {
   name        String
   description String
   email       String  @unique
-  birthDate   DateTime @map(name: "birth_date")
+  date   DateTime @map(name: "birth_date")
 }
