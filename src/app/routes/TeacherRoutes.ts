@@ -1,4 +1,4 @@
-import { TeacherController } from 'app/controllers/TeacherController';
+import { TeacherController } from './../../app/controllers/TeacherController';
 import { TeacherRepository } from './../../infra/repositories/TeacherRepository';
 import { Router } from "express";
 
